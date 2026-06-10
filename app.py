@@ -32,7 +32,7 @@ def encrypt_message(key, iv, plaintext):
 
 # دالة جلب التوكينات
 def fetch_tokens():
-    token_url = "https://api-get-jwt-by-alinas.vercel.app/get?uid=4983756423&password=F24B336BFCAFA17C36F954C83A0E7E806E221028E9C642C603E9D47934754A6B"
+    token_url = "https://api-get-jwt-by-alinas.vercel.app/get?uid=5122930204&password=3485F23CAD6C85FFCE3645CE2DF42D97BCD3487867E66D302854EE92383DE453"
 
     try:
         response = requests.get(token_url, timeout=5)
